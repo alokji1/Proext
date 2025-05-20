@@ -34,7 +34,7 @@ bot = Client("bot",
              #bot_token= os.environ.get("BOT_TOKEN"),
              api_id=API_ID,
              api_hash=API_HASH)
-auth_users = []
+auth_users = [7833842279]
 #romeo  
 
 owner_id = OWNER
@@ -56,17 +56,17 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="👨🏻‍💻 Devloper",
-                url="https://t.me/LP_LUCIFER",
+                url="http://t.me/Bhairakaka_contact_Bot",
             ),
             InlineKeyboardButton(
                 text="❣️ GITHUB",
-                url="https://t.me/LP_YAGAMI",
+                url="http://t.me/Bhairakaka_contact_Bot",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="🪄 Updates Channel",
-                url="https://t.me/PAVEL",
+                url="https://t.me/+nRf2boIxwvgzYzk1",
             ),
             
         ],
@@ -80,17 +80,17 @@ Busy = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="👨🏻‍💻 Devloper",
-                url="https://t.me/LP_LUCIFER",
+                url="http://t.me/Bhairakaka_contact_Bot",
             ),
             InlineKeyboardButton(
                 text="❣️ GITHUB",
-                url="https://t.me/LP_YAGAMI",
+                url="http://t.me/Bhairakaka_contact_Bot",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="Join to Check My Status ",
-                url="https://t.me/LP_LUCIFER",
+                url="https://t.me/+nRf2boIxwvgzYzk1",
             ),
             
         ],
@@ -130,7 +130,7 @@ async def start_command(bot: Client, message: Message):
     
     
     # Caption for the image
-    caption = f"**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫  👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️\n➠ Can Extract Videos & Pdf Form Your Text File and Upload to Telegram\n\n➠ 𝐔𝐬𝐞 /luci 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞  \n\n➠𝐌𝐚𝐝𝐞 𝐁𝐲: @LP_LUCIFER **\n"
+    caption = f"**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫  👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️\n➠ Can Extract Videos & Pdf Form Your Text File and Upload to Telegram\n\n➠ 𝐔𝐬𝐞 /alok 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞  \n\n➠𝐌𝐚𝐝𝐞 𝐁𝐲: KAKA **\n"
     
     # Send the image with the caption
     await bot.send_photo(
@@ -195,7 +195,7 @@ async def myplan_command_handler(bot, message):
                 today = datetime.datetime.today()
                 if today > datetime.datetime.strptime(expiration_date, "%d-%m-%Y"):
                     plan = "EXPIRED "
-                    response_text = f"**✨ User ID: {user_id}\n📊 PLAN STAT : {plan}\n\n🔰 Activated on : {subscription_start}\n🧨 Expiration Date: {expiration_date} \n\n 🫰🏼 ACTIVATE YOUR PLAN NOW ! \n⚡️ TO ACTIVATE MESSAGE : @LP_LUCIFER :D **"
+                    response_text = f"**✨ User ID: {user_id}\n📊 PLAN STAT : {plan}\n\n🔰 Activated on : {subscription_start}\n🧨 Expiration Date: {expiration_date} \n\n 🫰🏼 ACTIVATE YOUR PLAN NOW ! \n⚡️ TO ACTIVATE MESSAGE : @Bhairakaka_contact_Bot :D **"
                 else:
                     plan = "ALIVE!"  
                     response_text = f"**✨ User ID: {user_id}\n📊 PLAN STAT : {plan}\n🔰 Activated on : {subscription_start}\n🧨 Expiration Date: {expiration_date}**"
@@ -239,7 +239,7 @@ async def restart_handler(_, m):
      os.execl(sys.executable, sys.executable, *sys.argv)
     
 
-@bot.on_message(filters.command(["luci"]))
+@bot.on_message(filters.command(["kaka"]))
 async def account_login(bot: Client, m: Message):
     global processing_request
     if m.from_user.id not in auth_users:
@@ -251,7 +251,7 @@ async def account_login(bot: Client, m: Message):
             return
     else:
         
-        editable = await m.reply_text(f"**➠ 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞 𝐢𝐧 𝐀 𝐏𝐫𝐨𝐩𝐞𝐫 𝐖𝐚𝐲 \n\n➠ TXT FORMAT : LINK : URL \n➠ 𝐌𝐨𝐝𝐢𝐟𝐢𝐞𝐝 𝐁𝐲:  @LP_LUCIFER **")
+        editable = await m.reply_text(f"**➠ 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞 𝐢𝐧 𝐀 𝐏𝐫𝐨𝐩𝐞𝐫 𝐖𝐚𝐲 \n\n➠ TXT FORMAT : LINK : URL \n➠ 𝐌𝐨𝐝𝐢𝐟𝐢𝐞𝐝 𝐁𝐲:  @kaka **")
         input: Message = await bot.listen(editable.chat.id)
         editable = await editable.edit(f"**⚙️PROCESSING INPUT.......**")
 
@@ -296,7 +296,7 @@ async def account_login(bot: Client, m: Message):
                     pdfcount += 1 
                 else:
                     videocount += 1
-    await editable.edit(f"**Total links found are : {len(links)}\n┃\n┠ Total Video Count : {videocount}\n┠ Total Pdf Count: {pdfcount}  \n┠ Send From where you want to download initial is  : `1` \n┃\n┠ Send `stop` If don't want to Contine \n┖ Bot By : @LP_LUCIFER**" )
+    await editable.edit(f"**Total links found are : {len(links)}\n┃\n┠ Total Video Count : {videocount}\n┠ Total Pdf Count: {pdfcount}  \n┠ Send From where you want to download initial is  : `1` \n┃\n┠ Send `stop` If don't want to Contine \n┖ Bot By : @Bhairakaka_contact_Bot**" )
     input0: Message = await bot.listen(editable.chat.id)
     raw_text = input0.text
     await input0.delete(True)
@@ -339,12 +339,12 @@ async def account_login(bot: Client, m: Message):
     await input2.delete(True)
     
     
-    await editable.edit("**Enter Your Name or send `LUCIFER` for use default**")
+    await editable.edit("**Enter Your Name or send `kaka` for use default**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
-    if raw_text3 == 'LUCIFER':
-        CR = "@LP_LUCIFER"
+    if raw_text3 == 'AWAAZ':
+        CR = "@Bhairakaka_contact_Bot"
     else:
         CR = raw_text3
 
@@ -443,14 +443,14 @@ async def account_login(bot: Client, m: Message):
             #     cmd = f'yt-dlp -f "{ytf}+bestaudio" --hls-prefer-ffmpeg --no-keep-video --remux-video mkv "{url}" -o "{name}.%(ext)s"'
 
             try:   
-                cc = f' **➭ Index » {str(count).zfill(3)} **\n**➭ Title »  {name1}.mkv**\n**➭ 𝐁𝐚𝐭𝐜𝐡 » {b_name} **\n**➭ Quality » {raw_text2}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : 𝙻𝚄𝙲𝙸𝙵𝙴𝚁 💀**\n**━━━━━━━✦✗✦━━━━━━━**'
-                cc1 = f'**➭ Index » {str(count).zfill(3)} **\n**➭ Title » {name1}.pdf** \n**➭ 𝐁𝐚𝐭𝐜𝐡 »  {b_name}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : 𝙻𝚄𝙲𝙸𝙵𝙴𝚁 💀**\n**━━━━━━━✦✗✦━━━━━━━**'                            
+                cc = f' **➭ Index » {str(count).zfill(3)} **\n**➭ Title »  {name1}.mkv**\n**➭ 𝐁𝐚𝐭𝐜𝐡 » {b_name} **\n**➭ Quality » {raw_text2}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : KAKA 💀**\n**━━━━━━━✦✗✦━━━━━━━**'
+                cc1 = f'**➭ Index » {str(count).zfill(3)} **\n**➭ Title » {name1}.pdf** \n**➭ 𝐁𝐚𝐭𝐜𝐡 »  {b_name}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : KAKA 💀**\n**━━━━━━━✦✗✦━━━━━━━**'                            
                
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
                         copy = await bot.send_document(chat_id=m.chat.id,document=ka, caption=cc1)
-                        await copy.copy(chat_id = -1002097681261)
+                        await copy.copy(chat_id = -1004915015725)
                         count+=1
                         os.remove(ka)
                         time.sleep(1)
@@ -496,7 +496,7 @@ async def account_login(bot: Client, m: Message):
                         continue
 
                 else:
-                    prog = await m.reply_text(f"📥 **Downloading **\n\n**➭ Count » {str(count).zfill(3)} **\n**➭ Video Name » ** `{name}`\n**➭ Quality** » `{raw_text2}`\n**➭ Video Url »** NONE OF YOUR BUSINESS\n**➭ Thumbnail »** `{input6.text}` \n\n✨ **Bot Made by @LP_LUCIFER**\n**━━━━━━━✦𝙻𝚄𝙲𝙸𝙵𝙴𝚁✦━━━━━━━**")
+                    prog = await m.reply_text(f"📥 **Downloading **\n\n**➭ Count » {str(count).zfill(3)} **\n**➭ Video Name » ** `{name}`\n**➭ Quality** » `{raw_text2}`\n**➭ Video Url »** NONE OF YOUR BUSINESS\n**➭ Thumbnail »** `{input6.text}` \n\n✨ **Bot Made by @Bhairakaka_contact_Bot**\n**━━━━━━━✦kaka✦━━━━━━━**")
                     time.sleep(2)
                     res_file = await helper.drm_download_video(url,quality, name,key)
                     filename = res_file
